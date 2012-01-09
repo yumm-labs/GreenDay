@@ -32,7 +32,5 @@ thumbs/5.jpg.files/vcm_s_kf_repr_120x56.jpg: thumbs/5.jpg.files/vcm_s_kf_repr_12
 thumbs/6.jpg: thumbs/6-02ceb7ab7a49ff6636a53065c5ccfc2b.jpg
 thumbs/6.jpg.files/vcm_s_kf_m160_120x56.jpg: thumbs/6.jpg.files/vcm_s_kf_m160_120x56-11acff39e09f9e33d7d85f052127eb94.jpg
 thumbs/6.jpg.files/vcm_s_kf_repr_120x56.jpg: thumbs/6.jpg.files/vcm_s_kf_repr_120x56-11acff39e09f9e33d7d85f052127eb94.jpg
-application.js: application-4610439177c0b87bcc8ffaaa21a7011a.js
-green.js.bak: green.js-50d2cb54773b4694e87c943686f6e638.bak
-application.css: application-30f84e1668b5d3eca264e6544f69754d.css
-style.css.bak: style.css-a4c18211671fc65d1c2c07a6fb6a4291.bak
+application.js: application-9d4d11064dce99422b130cf5acecffcd.js
+application.css: application-d96d476bc352f1bdcb60e9ec2a0edd18.css
