@@ -1,4 +1,0 @@
-/*jQuery(function(){
-	jQuery('html,body').animate({scrollTop: jQuery("#home").offset().top}, 2000);
-});*/
-jQuery("#bf_page_menu li a:eq(0)").addClass("selected"),jQuery(function(){jQuery("#bf_page_menu li a").click(function(){jQuery("#bf_page_menu li a").removeClass("selected",function(){jQuery(this).animate(3e3)});var a=jQuery(this).data("content");jQuery("html,body").animate({scrollTop:jQuery("#"+a).offset().top},1500),jQuery(this).addClass("selected")})})
