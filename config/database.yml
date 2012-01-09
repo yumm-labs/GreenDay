@@ -23,7 +23,6 @@ test:
   password:
 
 production:
-test:
   adapter: postgresql
   encoding: unicode
   database: green_day_production
