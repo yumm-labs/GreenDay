@@ -6,7 +6,7 @@ gem 'rails', '3.1.1'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
-
+gem 'haml'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -33,4 +33,7 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
+  gem 'shoulda'
+  gem 'cucumber', '~> 1.1.4'
+  gem 'minitest'
 end

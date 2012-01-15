@@ -1,1 +1,1 @@
-MENU_LIST = { 'Home' => 'home', 'About us' => 'about_us', 'Our Menu' => 'menu', 'Contact us' => 'contact_us' }
+MENU_LIST = { 'Home' => 'home', 'About us' => 'about_us', 'Our Menu' => 'menu', 'Contact us' => 'contact_us', 'Call Me' => 'call_me' }
