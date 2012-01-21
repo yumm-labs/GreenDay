@@ -104,6 +104,10 @@ h1.title span {
 	overflow: hidden;
 	margin: 50% auto;
 }
+.bf_page1{
+	height:500px;
+	overflow: hidden;
+	}
 .bf_content_text {
 	background: url("../assets/bg_black.png") repeat scroll left top transparent;
 	height: 100%;
@@ -289,8 +293,8 @@ a.bf_close {
 	width: 100%;
 	font-size: 13px;
 	background: #000;
-	opacity: 0.9;
-	height: 20px;
+	opacity: 0.4;
+	height: 30px;
 	/*padding-bottom:5px;*/
 	text-transform: uppercase;
 	z-index: 4;

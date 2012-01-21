@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.1'
+gem 'rails', '3.1.3'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -34,7 +34,7 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
-  gem 'shoulda'
-  gem 'cucumber', '~> 1.1.4'
-  gem 'minitest'
+  # gem 'shoulda'
+  # gem 'cucumber', '~> 1.1.4'
+  # gem 'minitest'
 end

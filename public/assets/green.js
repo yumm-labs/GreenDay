@@ -17,3 +17,12 @@ jQuery(function(){
 		jQuery(this).addClass("selected");
 	});
 });
+
+/*Don't use navigation arrow keys*/
+jQuery(document).keydown(function(e){
+    if (e.keyCode == 37 || e.keyCode == 38 || e.keyCode == 39 || e.keyCode == 40 ) { 
+   //   alert("navigation keys");
+    e.preventDefault();
+       return false;
+    }
+});
