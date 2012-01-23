@@ -26,3 +26,11 @@ jQuery(document).keydown(function(e){
        return false;
     }
 });
+
+/*Remove hash from the url*/
+jQuery(function(){
+	if (location.href.indexOf("#") > -1) {
+    	location.assign(location.href.replace(/\/?#/, "/"));
+	}
+});
+

@@ -134,9 +134,10 @@ body:nth-of-type(1) .bf_content_text {
 }
 .bf_content_text p {
 	padding: 1px 80px;
-	font-size: 17px;
-	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-size: 18px;
+	/*font-family: 'PT Sans Narrow', Arial, sans-serif;*/
 	color: #fff;
+	line-height: 2;
 }
 .bf_content_text ul {
 	margin: 20px 0px 0px 24px;
@@ -293,7 +294,7 @@ a.bf_close {
 	width: 100%;
 	font-size: 13px;
 	background: #000;
-	opacity: 0.4;
+	opacity: 0.7;
 	height: 30px;
 	/*padding-bottom:5px;*/
 	text-transform: uppercase;

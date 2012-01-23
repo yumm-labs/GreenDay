@@ -19,3 +19,10 @@ jQuery(document).keydown(function(e){
     }
 });
 
+/*Remove hash from the url*/
+jQuery(function(){
+	if (location.href.indexOf("#") > -1) {
+    	location.assign(location.href.replace(/\/?#/, "/"));
+	}
+});
+
