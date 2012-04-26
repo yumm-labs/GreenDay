@@ -29,7 +29,6 @@ jQuery(function(){
 
 jQuery(function(){
 jQuery("#title_image_home").click(function(){
-	alert('test');
 	var href = window.location.href;
 	jQuery(this).attr("href",href);
 });
