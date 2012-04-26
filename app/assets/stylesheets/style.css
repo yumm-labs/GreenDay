@@ -173,10 +173,6 @@ body:nth-of-type(1) .bf_content_text {
 	float: left;
 }
 
-.dishes .subheading th(1){
-  width: 150px;
-}
-
 .bf_content_text ul li {
 	float: left;
 }
