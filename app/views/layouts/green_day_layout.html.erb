@@ -7,18 +7,19 @@
 		<meta name="keywords" content="Restarunt"/>
 		<link rel="shortcut icon" href="assets/selected_menu1.png" type="image/x-icon"/>
 		<!--link rel = "image_src" href = "" /-->
-		<link rel="stylesheet" type="text/css" href="assets/style.css" />
+		<!-- <link rel="stylesheet" type="text/css" href="assets/style.css" /> -->
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' />
 		<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis+Light' rel='stylesheet' type='text/css'>
+		<!-- 		<%= javascript_include_tag 'application' %> -->
+		 
 		<script type="text/javascript" src="assets/jquery.js"></script>
 		<script type="text/javascript" src="assets/green.js"></script>
-		<script type="text/javascript" src="assets/jquery.mousewheel.js"></script>
-		<!-- script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script -->
+		<script type="text/javascript" src="assets/jquery.easing.1.3.js"></script>
+		<%= stylesheet_link_tag 'application' %>
+		
 	</head>
 	<body>
-		<div class="bf_top">
-			
-		</div>
+		<div class="bf_top"></div>
 		<div id="map"></div>
 		<div id="bf_container" class="bf_container">
 			<div id="bf_background" class="bf_background">
@@ -28,7 +29,7 @@
 			<div id="bf_page_menu" class="bf_menu" >
 				<!--h1 class="title">Green&nbsp;day<span></span></h1>
 				<span class="green_caption">for home food lovers ...</span-->
-				<p class="title_image"></p>
+				<a id="title_image_home"><p class="title_image"></p></a>
 				<ul>
 					<%= render :partial => 'green_day/content_partials/menu' %>
 				</ul>
